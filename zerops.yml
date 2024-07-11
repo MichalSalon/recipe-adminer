@@ -5,6 +5,11 @@ zerops:
       prepareCommands:
         - sudo apk add wget
       buildCommands:
+        - whoami
+        - pwd
+        - ls -lah /var/www
+        - ls -lah $pwd
+        - ls -lah "$pwd/../"
         - |
           wget https://www.adminer.org/latest.php
           mv latest.php index.php
