@@ -3,7 +3,7 @@ The concept of a utility tool illustrates how to set up and use the technologies
 
 <br />
 
-![adminer](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-adminer.svg)
+![adminer](https://github.com/MichalSalon/recipe-shared-assets/blob/main/covers/svg/cover-adminer.svg)
 
 ## Deploy on Zerops
 You can add the latest version of Adminer to your project by clicking the ```Import Services``` button in the project details and then copying the provided code.
@@ -16,7 +16,7 @@ services:
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-adminer
 ```
-See the [Zerops documentation](https://docs.zerops.io/references/import) and [zerops.yaml](https://github.com/zeropsio/recipe-adminer/blob/main/zerops.yml) to understand how to use it.
+See the [Zerops documentation](https://docs.zerops.io/references/import) and [zerops.yaml](https://github.com/MichalSalon/recipe-adminer/blob/main/zerops.yml) to understand how to use it.
 
 
 
