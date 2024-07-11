@@ -14,7 +14,7 @@ services:
   - hostname: adminer
     type: php-apache@8.3
     enableSubdomainAccess: true
-    buildFromGit: https://github.com/zeropsio/recipe-adminer
+    buildFromGit: https://github.com/MichalSalon/recipe-adminer
 ```
 See the [Zerops documentation](https://docs.zerops.io/references/import) and [zerops.yaml](https://github.com/MichalSalon/recipe-adminer/blob/main/zerops.yml) to understand how to use it.
 
