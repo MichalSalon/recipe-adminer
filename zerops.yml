@@ -3,6 +3,9 @@ zerops:
     build:
       base: php@8.3
       prepareCommands:
+        - whoami
+        - pwd
+        - cat /etc/passwd
         - sudo apk add wget
       buildCommands:
         - whoami
