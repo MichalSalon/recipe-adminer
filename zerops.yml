@@ -2,6 +2,7 @@ zerops:
   - setup: adminer
     build:
       base: php@8.3
+      os: ubuntu
       prepareCommands:
         - printenv
         - whoami
