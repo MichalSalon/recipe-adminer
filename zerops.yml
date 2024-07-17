@@ -19,6 +19,18 @@ zerops:
       deployFiles: index.php
     run:
       base: php-apache@8.3
+      prepareCommands:
+        - whoami
+        - pwd
+        - ls -lah /var/www
+        - ls -lah $pwd
+        - ls -lah "$pwd/../"
+        - sudo apk add wget
+      initCommands:
+        - whoami
+        - pwd
+        - ls -lah /var/www
+        - sudo apk add wget
       ports:
         - port: 80
           httpSupport: true
